@@ -1,0 +1,61 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    
+  }
+
+.app {
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-items: center;    
+    min-height : 100vh;
+}
+
+.app.bg1 {
+    background-image: url(/images/bg1.jpg);
+}
+.app.bg2 {
+    background-image: url(/images/bg2.jpg);
+}
+.app.bg3 {
+    background-image: url(/images/bg3.jpg);
+}
+.app.bg4 {
+    background-image: url(/images/bg4.jpg);
+}
+.app.bg5 {
+    background-image: url(/images/bg5.jpg);
+}
+.app.bg6 {
+    background-image: url(/images/bg6.jpg);
+}
+.app.bg7 {
+    background-image: url(/images/bg7.jpg);
+}
+.app.bg8 {
+    background-image: url(/images/bg8.jpg);
+}
+
+.app__container {
+    align-items: center;
+    color: lightgrey;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+    padding: 0 10px;
+    text-align: center;
+    width: min(100%, 600px);
+}
+
+h1 {
+    color: rgb(255, 217, 0);
+    font-size: 3.5em;
+}
+
+h2 {
+    color: rgb(255, 217, 0);
+    font-size: 2em;
+}
+
+
+

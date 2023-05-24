@@ -1,0 +1,29 @@
+.quoteBox__btn {
+    background-color: rgb(26, 26, 26);
+    border: 3px solid rgb(255, 217, 0);
+    border-radius: 8px;
+    color: rgb(255, 217, 0);
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 18px 12px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+.quoteBox__btn:hover {
+    background-color: rgb(26, 26, 26);
+    border: 5px solid rgb(255, 217, 0);
+    color: rgb(255, 217, 0);
+    font-weight: bolder;
+}
+
+
+p {
+    color: whitesmoke;
+    font-size: 2em;
+    font-weight: bold;
+}
